@@ -12,6 +12,8 @@ export const useServerTimeLoader = routeLoader$(() => {
   };
 });
 
+//TODO: add loading indicator
+
 export default component$(() => {
   useStyles$(styles);
   return (
