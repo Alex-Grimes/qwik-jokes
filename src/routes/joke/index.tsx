@@ -14,7 +14,7 @@ export const useDadJoke = routeLoader$(async () => {
 
 export default component$(() => {
   const dadJokeSignal = useDadJoke();
-
+  // todo: add loading indicator
   return (
     <section class='section bright'>
       <p>{dadJokeSignal.value.joke}</p>
